@@ -1,4 +1,6 @@
+import Heroes from "@/components/Heroes";
 import Navbar from "@/components/Navbar";
+import SlideBar from "@/components/Sidebar";
 
 const PHONES = [
   { id: 1, tiltY: -14, tiltX: 5 },
@@ -11,6 +13,8 @@ export default function Home() {
   return (
     <div className="dot-bg min-h-screen">
       <Navbar />
+      <Heroes />
+      <SlideBar />
     </div>
   );
 }
