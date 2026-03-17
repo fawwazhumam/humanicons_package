@@ -47,20 +47,20 @@ export default function CommentsBar({
           {heading}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
           {comments.map((comment, index) => (
             <div
               key={index}
-              className={`flex flex-col gap-4 rounded-xl p-5 border transition-colors ${
+              className={`flex flex-col gap-4 rounded-xl px-4 border transition-colors ${
                 comment.featured
                   ? "bg-gray-50 border-gray-400"
                   : "bg-gray-50 border-gray-200 hover:bg-gray-100"
               }`}>
-              <p className="font-['Plus_Jakarta_Sans',sans-serif] p-4 font-medium text-[14px] md:text-[16px] text-gray-600 leading-relaxed flex-1">
+              <p className="font-['Plus_Jakarta_Sans',sans-serif] py-4 font-medium text-[14px] md:text-[16px] text-gray-600 leading-relaxed flex-1">
                 &ldquo;{comment.quote}&ldquo;
               </p>
 
-              <div className="flex items-center justify-between gap-3 p-2 border-t border-gray-200">
+              <div className="flex items-center justify-between gap-3 py-4 border-t border-gray-200">
                 <div className="flex items-center gap-2.5">
                   <div className="w-7 h-7 rounded-full bg-gray-200 border border-gray-400 shrink-0 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="none">

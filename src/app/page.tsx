@@ -3,6 +3,7 @@ import CommentsBar from "@/components/CommentsBar";
 import FeaturesSection from "@/components/FeaturesSection";
 import Heroes from "@/components/Heroes";
 import Navbar from "@/components/Navbar";
+import Overview from "@/components/Overview";
 import TrustBar from "@/components/Trust-bar";
 import ValueProposition from "@/components/ValueProposition";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <ValueProposition />
       <Collaborator />
       <CommentsBar />
+      <Overview />
     </div>
   );
 }
