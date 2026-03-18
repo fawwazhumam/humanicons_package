@@ -1,9 +1,12 @@
+import CallToAction from "@/components/CallToAction";
 import Collaborator from "@/components/Collaborator";
 import CommentsBar from "@/components/CommentsBar";
 import FeaturesSection from "@/components/FeaturesSection";
 import Heroes from "@/components/Heroes";
 import Navbar from "@/components/Navbar";
 import Overview from "@/components/Overview";
+import ProductHighlight from "@/components/ProductHighlight";
+import ProjectShowcase from "@/components/ProjectShowcase";
 import TrustBar from "@/components/Trust-bar";
 import ValueProposition from "@/components/ValueProposition";
 
@@ -25,6 +28,9 @@ export default function Home() {
       <Collaborator />
       <CommentsBar />
       <Overview />
+      <CallToAction />
+      <ProductHighlight />
+      <ProjectShowcase />
     </div>
   );
 }

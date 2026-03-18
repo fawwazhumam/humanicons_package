@@ -69,15 +69,7 @@ export default function Overview({
                   height="14"
                   viewBox="0 0 14 14"
                   fill="none"
-                  className="group-hover:translate-x-0.5 transition-transform">
-                  <path
-                    d="M3 7H11M7 3L11 7L7 11"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                  className="group-hover:translate-x-0.5 transition-transform"></svg>
               </Link>
             </div>
 

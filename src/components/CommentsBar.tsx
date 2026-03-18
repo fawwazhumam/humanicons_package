@@ -63,22 +63,11 @@ export default function CommentsBar({
               <div className="flex items-center justify-between gap-3 py-4 border-t border-gray-200">
                 <div className="flex items-center gap-2.5">
                   <div className="w-7 h-7 rounded-full bg-gray-200 border border-gray-400 shrink-0 flex items-center justify-center">
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                      <circle
-                        cx="6"
-                        cy="4.5"
-                        r="2"
-                        fill="black"
-                        fillOpacity="0.4"
-                      />
-                      <path
-                        d="M2 10C2 8.34315 3.79086 7 6 7C8.20914 7 10 8.34315 10 10"
-                        stroke="black"
-                        strokeOpacity="0.4"
-                        strokeWidth="1.2"
-                        strokeLinecap="round"
-                      />
-                    </svg>
+                    <svg
+                      width="12"
+                      height="12"
+                      viewBox="0 0 12 12"
+                      fill="none"></svg>
                   </div>
                   <div className="flex flex-col">
                     <span className="font-['Plus_Jakarta_Sans',sans-serif] font-semibold text-[12px] text-gray-800 leading-tight">
@@ -91,16 +80,11 @@ export default function CommentsBar({
                 </div>
 
                 <div className="w-6 h-6 rounded-md bg-gray-200 border border-gray-400 flex items-center justify-center shrink-0">
-                  <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
-                    <path
-                      d="M2 5.5L4.5 8L9 3"
-                      stroke="black"
-                      strokeOpacity="0.35"
-                      strokeWidth="1.3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
+                  <svg
+                    width="11"
+                    height="11"
+                    viewBox="0 0 11 11"
+                    fill="none"></svg>
                 </div>
               </div>
             </div>

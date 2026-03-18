@@ -20,53 +20,10 @@ export default function Heroes({ className = " " }: { className?: string }) {
               href="/explore"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-50 text-[16px] font-semibold rounded-lg hover:bg-gray-100 transition-all font-['Plus-Jakarta_Sans,sans-serif]">
               Explore Icons
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path
-                  d="M3 7H11M7 3L11 7L7 11"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
             </Link>
             <Link
               href="/explore"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-50 text-[16px] font-semibold rounded-lg hover:bg-gray-100 transition-all font-['Plus-Jakarta_Sans,sans-serif]">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <rect
-                  x="1.5"
-                  y="1.5"
-                  width="4.5"
-                  height="4.5"
-                  rx="1.2"
-                  fill="#F24E1E"
-                />
-                <rect
-                  x="8"
-                  y="1.5"
-                  width="4.5"
-                  height="4.5"
-                  rx="1.2"
-                  fill="#FF7262"
-                />
-                <rect
-                  x="1.5"
-                  y="8"
-                  width="4.5"
-                  height="4.5"
-                  rx="1.2"
-                  fill="#0ACF83"
-                />
-                <rect
-                  x="8"
-                  y="8"
-                  width="4.5"
-                  height="4.5"
-                  rx="1.2"
-                  fill="#1ABCFE"
-                />
-              </svg>
               Figma Library
             </Link>
           </div>
