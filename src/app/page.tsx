@@ -1,7 +1,9 @@
 import CallToAction from "@/components/CallToAction";
 import Collaborator from "@/components/Collaborator";
 import CommentsBar from "@/components/CommentsBar";
+import DownloadApp from "@/components/DownloadApp";
 import FeaturesSection from "@/components/FeaturesSection";
+import Footer from "@/components/Footer";
 import Heroes from "@/components/Heroes";
 import Navbar from "@/components/Navbar";
 import Overview from "@/components/Overview";
@@ -31,6 +33,8 @@ export default function Home() {
       <CallToAction />
       <ProductHighlight />
       <ProjectShowcase />
+      <DownloadApp />
+      <Footer />
     </div>
   );
 }
